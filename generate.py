@@ -20,8 +20,9 @@ from model import Model
 WORK_DIR = 'data-lyrics'
 #WORK_DIR = 'data-eminescu'
 
-TEMPERATURE = 1
-INI_TEXT = '''yellow sky and people some start line and a few empty words'''
+TEMPERATURE = .7
+INI_TEXT = '''green people floating
+the morning has'''
 
 
 def weighted_pick(a):
