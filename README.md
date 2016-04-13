@@ -1,9 +1,10 @@
 Similar to [https://github.com/dvictor/lstm-poetry](https://github.com/dvictor/lstm-poetry) but this time, instead of characters,
 we represent entire words as (embedding) vectors.
 
-Uses [TensorFlow](https://www.tensorflow.org/) version 0.7.1
+### Uses
+[TensorFlow](https://www.tensorflow.org/) version 0.7.1
 
-Run
+### Run
 
  - `train.py` train your NN
  - `generate.py` generate text 
@@ -11,8 +12,11 @@ Run
 Change WORK_DIR in each file to specify your work directory. 
 
 
-Here's an example of output.  
-Input text *green people floating  
+### Here's an example of output.
+
+Input text:
+
+*green people floating  
 the morning has* 
 
 Output:
